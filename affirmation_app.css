@@ -1,0 +1,16 @@
+body {
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVkaXRhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60);
+    background-size: 115%;
+}
+h1{
+    margin-left: 20px;
+    padding-top: 0;
+    margin-top: 20px;
+}
+h2{
+    padding-left: 500px;
+}
+.buttons {
+    
+}
