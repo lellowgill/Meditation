@@ -73,7 +73,6 @@ header {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     padding: 5px;
-
 }
 
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -90,7 +89,6 @@ header {
     backface-visibility: hidden;
     border-radius: 15%;
 }
-
   /* Style the front side (fallback if image is missing) */
 .flip-card-front {
     background-color: paleturquoise;
@@ -99,14 +97,13 @@ header {
     padding-top: 25%;
     margin: -50px;
 }
-
   /* Style the back side */
 .flip-card-back {
     background-color: palegoldenrod;
     color:paleturquoise;
     transform: rotateY(180deg);
-    padding-top: 25%;
     text-align: center;
+    padding-top: 25%;
     margin: -50px;
 }
 .card {
