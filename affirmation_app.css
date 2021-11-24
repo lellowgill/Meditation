@@ -40,7 +40,7 @@ header {
     font-size: 150%;
     font-weight: 300;
     font-variant: small-caps;
-    color: gray;
+    color: black;
 }
 /*.card {
     background:rgb(180, 180, 180);
@@ -60,7 +60,8 @@ header {
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     border-radius: 35px;
     padding-left: 70%;
-    padding-top: 10%;
+    padding-top: 5%;
+    
 }
 
   /* This container is needed to position the front and back side */
@@ -71,6 +72,8 @@ header {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    padding: 5px;
+
 }
 
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -90,13 +93,42 @@ header {
 
   /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: #bbb;
+    background-color: paleturquoise;
     color: black;
+    text-align:center;
+    padding-top: 25%;
+    margin: -50px;
 }
 
   /* Style the back side */
 .flip-card-back {
-    background-color: hsla(0, 100%, 90%, 0.3);
+    background-color: palegoldenrod;
     color:paleturquoise;
     transform: rotateY(180deg);
+    padding-top: 25%;
+    text-align: center;
+    margin: -50px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 #bbb;
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    margin-left: 70%;
+    border-radius: 15%;
+    text-align: center;
+}
+
+/* Add some padding inside the card container */
+.container{
+    padding: 50px;
+    background-color:paleturquoise;
+    border-radius: 15%;
+    
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    font-weight: 300;
+    font-variant: small-caps;
+    color: black;
 }
