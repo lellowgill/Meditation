@@ -1,9 +1,9 @@
 import react from 'react';
-import 'App.css';
+import '../App.css';
 
 export const Navbar = () => {
     return (
-        <div class="navbar">
+        <div className="navbar">
             <a class="active"href="#home">Home</a> 
                 <a href="#about">About</a> 
                 <a href="#feature">Featured Affs</a>
