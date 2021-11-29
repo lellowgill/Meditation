@@ -1,12 +1,11 @@
 import react from 'react';
-import 'App.css';
+import '../App.css';
 
 export const Motto = () => {
     return (
-        <section>
+
     <div>
-        <h2>"I am because I choose to be"</h2>
+        <h1>"I am because I choose to be"</h1>
     </div>
-</section>
     )
 }
